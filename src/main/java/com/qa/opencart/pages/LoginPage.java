@@ -16,12 +16,13 @@ public class LoginPage {
 	private ElementUtil eleutil;
 
 	// 1. private by locators:
-	private By emailId = By.id("input-email");
+	
 	private By password = By.id("input-password");
 	private By loginBtn = By.xpath("//input[@value='Login']");
 	private By forgotPwd = By.linkText("Forgotten Password");
-	private By registerLink = By.linkText("Register");
+	private By registerLink = By.linkText("Register1");
 	private By loginErrorMessg = By.cssSelector("div.alert.alert-danger.alert-dismissible");
+	
 
 
 	// 2. public page const....
