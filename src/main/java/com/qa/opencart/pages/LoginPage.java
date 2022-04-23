@@ -16,7 +16,7 @@ public class LoginPage {
 	private ElementUtil eleutil;
 
 	// 1. private by locators:
-	private By emailId = By.id("input-email");
+	
 	private By password = By.id("input-password");
 	private By loginBtn = By.xpath("//input[@value='Login']");
 	private By forgotPwd = By.linkText("Forgotten Password");
